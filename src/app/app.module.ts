@@ -4,7 +4,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule  } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatTabsModule } from '@angular/material/tabs';
-import { MatIconModule } from '@angular/material/icon';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatListModule } from '@angular/material/list';
 
 import { GoogleMapsModule } from '@angular/google-maps'
 
@@ -35,7 +36,8 @@ import { SearchEngineComponent } from './search-engine/search-engine.component';
     MatButtonModule,
     MatCardModule,
     MatTabsModule,
-    MatIconModule
+    MatGridListModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
