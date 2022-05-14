@@ -40,3 +40,10 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Enviroment
+**/src/environments/environment.prod.ts
+**/src/environments/environment.ts
+
+# Index file
+**/src/index-replace.html

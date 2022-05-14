@@ -6,6 +6,8 @@ import { MatCardModule } from '@angular/material/card';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatIconModule } from '@angular/material/icon';
 
+import { GoogleMapsModule } from '@angular/google-maps'
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
@@ -28,6 +30,7 @@ import { SearchEngineComponent } from './search-engine/search-engine.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    GoogleMapsModule,
     MatToolbarModule,
     MatButtonModule,
     MatCardModule,
