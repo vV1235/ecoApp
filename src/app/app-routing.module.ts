@@ -1,13 +1,17 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutComponent } from './about/about.component';
-import { HomeComponent } from './home/home.component';
+import { NewsComponent } from './news/news.component';
+import { MapsComponent } from './maps/maps.component';
+import { StatsComponent } from './stats/stats.component';
+import { SearchEngineComponent } from './search-engine/search-engine.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent },
-  { path: 'about', component: AboutComponent }, 
+  { path: '', redirectTo: '/news', pathMatch: 'full' },
+  { path: 'news', component: NewsComponent },
+  { path: 'search-engine', component: SearchEngineComponent },
+  { path: 'maps', component: MapsComponent },
+  { path: 'stats', component: StatsComponent },
   { path: '**', component: PagenotfoundComponent },
 ];
 
