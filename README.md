@@ -1,3 +1,7 @@
+## EcoApp
+
+The app was developed for “Projektowanie zorientowane na użytkownika” class. The chosen theme is ecology. We focused on waste separation, eco-port map, statistics on Poland and Europe, and news on ecology.
+
 ## Development server
 
 Run `ng serve --live-reload` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
