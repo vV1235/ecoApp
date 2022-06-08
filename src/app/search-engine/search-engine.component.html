@@ -1,11 +1,16 @@
 <mat-toolbar class="toolbar">
-    <img src="assets/logo.png" id="logo" [routerLink]="['/main']" class="img-responsive" style="width:60px; margin-right: 10px;" >
-    <span [routerLink]="['/main']">Eco Side</span>
+    <img src="assets/logo.png" id="img_logo" [routerLink]="['/main']" class="img-responsive" style="width:60px; margin-right: 10px;" >
+    <span [routerLink]="['/main']" id="app_name">Eco Side</span>
+    
     <span class="nav-bar-spacer"></span>
-    <a mat-button routerLink="news">Aktualnosci</a>
-    <a mat-button routerLink="maps">Mapa Punktow</a>
-    <a mat-button routerLink="stats">Statystyki</a>
-    <a mat-button routerLink="search-engine">Eko Wyszukiwarka</a>
+    <img src="assets/RealTimeNews.png" routerLink="/news" id="news" class="ico">
+    <a mat-button routerLink="/news">Aktualnosci</a>
+    <img src="assets/Reach.png" routerLink="/maps" id="reach" class="ico">
+    <a mat-button routerLink="/maps">Mapa ekoportów</a>
+    <img src="assets/Chart.png" routerLink="/stats" id="stats" class="ico">
+    <a mat-button routerLink="/stats">Statystyki</a>
+    <img src="assets/WasteSeparation.png" routerLink="/search-engine" id="waste" class="ico">
+    <a mat-button routerLink="/search-engine">Eko Wyszukiwarka</a>
 </mat-toolbar>
 
 <p>search-engine works!</p>
