@@ -1,0 +1,58 @@
+/*Navbar style*/
+.nav-bar-spacer {
+    flex: 1 1 auto;
+  }
+.toolbar{
+  background-color: #F8F8FF;
+  height: 80px;
+}
+.toolbar a{
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 29px;
+  color: #698F3F;
+}
+.ico{
+  width: 25px;
+  height: 25px;
+  display: none;
+}
+#app_name{
+  font-style: italic;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 61px;
+  color: #698F3F;
+  margin-left: 10px;
+}
+#img_logo{
+  margin-left: 20px;
+}
+@media screen and (min-width:561px) and (max-width:850px){
+  .ico{
+    display: block;
+    margin-right: 40px;
+  }
+  .toolbar a{
+    display: none;
+  }
+}
+@media screen and (min-width:451px) and (max-width:560px){
+  .ico{
+    display: block;
+    margin-right: 20px;
+  }
+  .toolbar a{
+    display: none;
+  }
+}
+@media screen and (max-width:450px){
+  .ico{
+    display: block;
+    margin-right: 5px;
+  }
+  .toolbar a{
+    display: none;
+  }
+}
+/*End of navbar style*/
