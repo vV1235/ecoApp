@@ -17,11 +17,13 @@ import { NewsComponent } from './news/news.component';
 import { StatsComponent } from './stats/stats.component';
 import { MapsComponent } from './maps/maps.component';
 import { SearchEngineComponent } from './search-engine/search-engine.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PagenotfoundComponent,
+    MainComponent,
     NewsComponent,
     StatsComponent,
     MapsComponent,
