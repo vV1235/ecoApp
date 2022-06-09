@@ -56,3 +56,45 @@
   }
 }
 /*End of navbar style*/
+
+.stats{
+  width:80%;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.stats p{
+  font-style: normal;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 48px;
+  text-align: center;
+  color: #191919;
+}
+.red{
+  color: #CC1D1D;
+}
+
+:host ::ng-deep .mat-tab-label{
+  color:#214F4B;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 480px) {
+  .stats p{
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .stats p{
+    font-size: 30px;
+  }
+}
+mat-tab-label{
+  color:red !important;
+}
